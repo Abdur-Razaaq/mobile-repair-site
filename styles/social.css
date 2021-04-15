@@ -15,9 +15,17 @@ body {
   padding: 1% 10%;
 }
 
-#social > div {
+#social div {
   display: flex;
 }
-#social > div > p {
+#social p {
   margin-right: 20px;
+}
+
+.social-links {
+  justify-content: space-between;
+}
+
+.social-links i {
+  margin: 0 5px;
 }
